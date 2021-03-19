@@ -6,7 +6,7 @@ ws = say.format(name="icecream", line="lick you up")
 
 print(ws + " plz ")
 
-# maketrans test
+# maketrans and translate test
 temp = ws.maketrans("elo", "zxq")
 
 print(temp, ws.translate(temp))
